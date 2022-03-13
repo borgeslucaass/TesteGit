@@ -1,5 +1,7 @@
 
 class Vendas:
+
+
     def __init__(self, produto, valor, qtd):
         self._produto = produto
         self._valor = valor 
@@ -21,3 +23,15 @@ class Vendas:
     @property
     def qtd(self):
         return self._qtd
+
+    @produto.setter
+    def produto(self, produto):
+        self._produto = produto
+
+    @valor.setter
+    def velor(self, valor):
+        self._valor = valor
+
+    @qtd.setter
+    def qtd(self, qtd):
+        self.qtd = qtd
