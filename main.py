@@ -6,3 +6,6 @@ v1.info()
 
 v2 = ("maça", 5, 25)
 v2.info
+
+v3 = ("pera", 6, 30)
+v3.info
