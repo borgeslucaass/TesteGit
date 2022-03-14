@@ -8,3 +8,4 @@ v1.info()
 
 v2 = Vendas("casa", 120, 3)
 v2.info()
+

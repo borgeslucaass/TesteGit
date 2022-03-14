@@ -1,7 +1,6 @@
 
 class Vendas:
 
-
     def __init__(self, produto, valor, qtd):
         self._produto = produto
         self._valor = valor 
